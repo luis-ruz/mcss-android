@@ -29,13 +29,18 @@ Once you create a .mcss file, residing either on an external URL or stored local
 
 ### Gradle Package Manager:
 
-1.  Open the project's build.gradle file in your Android Studio project and add the following code fragment:
+1.  Open the project's settings.gradle file in your Android Studio project and add the following code fragment:
 
 		allprojects {
+		dependencyResolutionManagement {
+			repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 			repositories {
+        			...
 				maven { url 'https://jitpack.io' }
 			}
 		}
+		
+		
 
 2.  Open the module's build.gradle file, add the following code fragment:
 
