@@ -43,13 +43,6 @@ Once you create a .mcss file, residing either on an external URL or stored local
 			implementation 'com.github.MCSSLIB : MCSS-ANDROID:v1.0.0'
 		}
 		    
-If your project uses legacy, you must import the android support library from MCSS:
-
-		dependencies {
-			implementation 'com.android.support:design : 28.0.0'
-			implementation 'com.github.MCSSLIB : com.github.MCSSLIB:MCSS-ANDROID-LEGACY : v1.0.0'
-		}
-
 
 ### Manual installation:
 
