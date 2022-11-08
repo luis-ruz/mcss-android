@@ -31,7 +31,6 @@ Once you create a .mcss file, residing either on an external URL or stored local
 
 1.  Open the project's settings.gradle file in your Android Studio project and add the following code fragment:
 
-		allprojects {
 		dependencyResolutionManagement {
 			repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 			repositories {
@@ -39,8 +38,6 @@ Once you create a .mcss file, residing either on an external URL or stored local
 				maven { url 'https://jitpack.io' }
 			}
 		}
-		
-		
 
 2.  Open the module's build.gradle file, add the following code fragment:
 
