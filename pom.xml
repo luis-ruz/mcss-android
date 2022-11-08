@@ -1,6 +1,6 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <!-- do_not_remove: published-with-gradle-metadata -->
-   <modelVersion>4.0.0</modelVersion>
+   <modelVersion>1.0.0</modelVersion>
    <groupId>com.github.luis-ruz</groupId>
    <artifactId>mcss-android</artifactId>
    <version>1.0.0</version>
