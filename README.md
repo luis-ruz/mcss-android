@@ -48,13 +48,13 @@ Once you create a .mcss file, residing either on an external URL or stored local
 
 ### Manual installation:
 
-1.  	Download the mcss-android-release.aar library from the https://github.com/getmcss/MCSS-ANDROID if your project uses Android
+1.  Download the mcss-android-release.aar library from the https://github.com/getmcss/MCSS-ANDROID if your project uses Android
 
     ```
     git clone https://github.com/getmcss/MCSS-ANDROID 
     ```
 
-2.  	In the main module of your Android Studio project verify that the libs folder exists.
+2.  In the main module of your Android Studio project verify that the libs folder exists.
 
 3.	Copy the mcss-android-release.aar library you just downloaded into the libs folder.
 
